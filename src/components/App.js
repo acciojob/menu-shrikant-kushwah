@@ -87,10 +87,10 @@ function App() {
     <div id="main">
       <h1 id="heading">Our Menu</h1>
       <div className="btn-container">
-        <button id="#filter-btn-0" onClick={() => setCategory("All")}>All</button>
-        <button id="#filter-btn-1" onClick={() => setCategory("Breakfast")}>Breakfast</button>
-        <button id="#filter-btn-2" onClick={() => setCategory("Lunch")}>Lunch</button>
-        <button id="#filter-btn-3" onClick={() => setCategory("Shakes")}>Shakes</button>
+        <button id="filter-btn-0" onClick={() => setCategory("All")}>All</button>
+        <button id="filter-btn-1" onClick={() => setCategory("Breakfast")}>Breakfast</button>
+        <button id="filter-btn-2" onClick={() => setCategory("Lunch")}>Lunch</button>
+        <button id="filter-btn-3" onClick={() => setCategory("Shakes")}>Shakes</button>
       </div>
       <Menu items={filteredItems} />
     </div>
